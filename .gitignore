@@ -1,0 +1,32 @@
+# Virtual environments
+.venv/
+venv/
+
+# Secrets and environment configuration
+.env
+.env.*
+!.env.example
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# Local vector database and generated artifacts
+chroma_db/
+data/private/
+data/processed/
+
+# Model and experiment artifacts
+models/
+mlruns/
+*.pt
+*.pth
+*.onnx
+
+# IDE and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
